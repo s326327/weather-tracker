@@ -92,5 +92,3 @@ print("\nData saved to CSV files.")
 
 
 
-git commit -m "Add weather script and CSV data"
-git push
