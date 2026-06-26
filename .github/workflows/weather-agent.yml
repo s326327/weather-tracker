@@ -31,6 +31,6 @@ jobs:
         run: |
           git config user.name "Weather Agent"
           git config user.email "actions@github.com"
-          git add daily_log.csv dashboard.png
+          git add *.csv *.png
           git commit -m "Update weather data $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
